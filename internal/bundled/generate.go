@@ -134,6 +134,7 @@ func readLibs() []lib {
 	}
 
 	libsFile := filepath.Join(libInputDir, "libs.json")
+	libsFile = tspath.GetNormalizedAbsolutePath(libsFile, ".")
 
 	b, err := os.ReadFile(libsFile)
 	if err != nil {
