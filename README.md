@@ -1,7 +1,7 @@
 # TypeScript 7 <!-- omit in toc -->
 
-[![Project Status: Active](https://img.shields.io/badge/Project-Active-green.svg)](https://github.com/microsoft/typescript-go)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+<a href="https://github.com/microsoft/typescript-go" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Project-Active-green.svg" alt="Project Status: Active"></a>
+<a href="https://opensource.org/licenses/Apache-2.0" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License: Apache 2.0"></a>
 
 <a href="https://devblogs.microsoft.com/typescript/typescript-native-port/" target="_blank" rel="noopener noreferrer">Not sure what this is? Read the announcement post!</a>
 
