@@ -3,7 +3,7 @@
 [![Project Status: Active](https://img.shields.io/badge/Project-Active-green.svg)](https://github.com/microsoft/typescript-go)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[Not sure what this is? Read the announcement post!](https://devblogs.microsoft.com/typescript/typescript-native-port/)
+<a href="https://devblogs.microsoft.com/typescript/typescript-native-port/" target="_blank" rel="noopener noreferrer">Not sure what this is? Read the announcement post!</a>
 
 This repo is very much under active development; as such there are no published artifacts at this time.
 Interested developers can clone and run locally to try out things as they become available.
@@ -27,9 +27,9 @@ Interested developers can clone and run locally to try out things as they become
 ### Prerequisites
 
 This repo uses:
-- [Go 1.24 or higher](https://go.dev/dl/)
-- [Node.js with npm](https://nodejs.org/)
-- [`hereby`](https://www.npmjs.com/package/hereby)
+- <a href="https://go.dev/dl/" target="_blank" rel="noopener noreferrer">Go 1.24 or higher</a>
+- <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">Node.js with npm</a>
+- <a href="https://www.npmjs.com/package/hereby" target="_blank" rel="noopener noreferrer">`hereby`</a>
 
 ### Setup Instructions
 
@@ -51,34 +51,28 @@ git submodule update --init --recursive
 With the submodule in place and `npm ci`, you can run tasks via `hereby`, similar to the TypeScript repo:
 
 ```sh
-hereby build
+hereby build  -- Verify that the project builds
 ```
-Verify that the project builds
 
 ```sh
-hereby test
+hereby test  -- Run all tests
 ```
-Run all tests
 
 ```sh
-hereby install-tools
+hereby install-tools  -- Install additional tools such as linters
 ```
-Install additional tools such as linters
 
 ```sh
-hereby lint
+hereby lint  -- Run all linters
 ```
-Run all linters
 
 ```sh
-hereby format
+hereby format  -- Format all code
 ```
-Format all code
 
 ```sh
-hereby generate
+hereby generate  -- Generate all Go code (e.g. diagnostics, committed to repo)
 ```
-Generate all Go code (e.g. diagnostics, committed to repo)
 
 Additional tasks are a work in progress.
 
@@ -144,20 +138,20 @@ For a list of intentional changes with respect to TypeScript 5.7, see CHANGES.md
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit [Contributor License Agreements](https://cla.opensource.microsoft.com).
+the rights to use your contribution. For details, visit <a href="https://cla.opensource.microsoft.com" target="_blank" rel="noopener noreferrer">Contributor License Agreements</a>.
 
 When you submit a pull request, a CLA bot will automatically determine whether you need to provide
 a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
 provided by the bot. You will only need to do this once across all repos using our CLA.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+This project has adopted the <a href="https://opensource.microsoft.com/codeofconduct/" target="_blank" rel="noopener noreferrer">Microsoft Open Source Code of Conduct</a>.
+For more information see the <a href="https://opensource.microsoft.com/codeofconduct/faq/" target="_blank" rel="noopener noreferrer">Code of Conduct FAQ</a> or
+contact <a href="mailto:opencode@microsoft.com" target="_blank" rel="noopener noreferrer">opencode@microsoft.com</a> with any additional questions or comments.
 
 ## Trademarks
 
 This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
 trademarks or logos is subject to and must follow
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
+<a href="https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general" target="_blank" rel="noopener noreferrer">Microsoft's Trademark & Brand Guidelines</a>.
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
